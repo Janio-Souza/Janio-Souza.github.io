@@ -1,50 +1,421 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-   <link rel="stylesheet" href="style.css">
-    
-    <title>Janio Souza</title>
+
+     <title>Janio Souza - Portfolio</title>
+
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="Tooplate">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/all.min.css">
+     <link rel="stylesheet" href="css/owl.carousel.min.css">
+     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="css/tooplate-ben-resume-style.css">
+<!--
+Tooplate 2120 Ben Resume
+https://www.tooplate.com/view/2120-ben-resume
+-->
 </head>
-<body>
-    <h1 class="title1">JANIO SOUZA</h1>
-    <br>
-    <img class="myimage" src="/imagens/janiosouza.jpeg" alt="Foto janiosouza">
-    <br>
-    <h3>Sumario</h3>
-    <br>
-    <ul>
-        <li> <a href="#1">Sobre</a></li>
-        <li> <a href="#2">Talentos</a></li>
-        <li> <a href="#3">Passa tempos</a></li>
-        <li> <a href="#4">Educação</a></li>
 
-    </ul>
-    <br>
-    <ul>
-        <li id="1">Nacionalidade: Brasileiro</li>
-        <li>Cidade: Belém de São Francisco</li>
-        <li>Estado: Pernambuco</li>
+<body data-spy="scroll" data-target="#navbarNav" data-offset="50">
 
-    </ul>
-    <br>
-    <p id="2">Tenho 25 anos, sou formado em <em>administração</em> e curso desenvolvimento Web na <strong>Trybe</strong></p>
-    <p>Sou apto a programar em;</p>
-    <ol>
-        <li>JavaScript</li> 
-        <li>CSS e HTML</li>
-        <li>FrontEnd e</li>
-        <li>BackEnd</li>
+    <!-- MENU BAR -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
 
-    </ol>
-<br>
-<p id="3">Adoro filmes e series como muitos, mas também gosto de leituras, principalmente sobre finanças,<br>
-mas também curto esportes, vejam uma foto de um esporte muito bom de praticar na minha cidade.</p>
-<a href="/imagens/kayak.jpg">Foto</a>
-<br>
-<p id="4">E aqui vocês podem ver a instituição na qual adiquiri as habilidades como Dev. </p>
-<img src="/imagens/trybe_logo.png" alt="Logo Trybe" width="300px" ><br>
-Saiba mais em <a href="https://www.betrybe.com/" target="_blank">betrybe</a>
+            <a class="navbar-brand" href="#">
+                Janio Souza
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#intro" class="nav-link smoothScroll">Introdução</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link smoothScroll">Sobre mim</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#testimonials" class="nav-link smoothScroll">Projetos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link smoothScroll">Contato</a>
+                    </li>
+                </ul>
+
+                <div class="mt-lg-0 mt-3 mb-4 mb-lg-0">
+                    <a href="/cv/Currículo Janio Souza.pdf" class="custom-btn btn" download>Download CV</a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- HERO -->
+    <section class="hero d-flex flex-column justify-content-center align-items-center" id="intro">
+
+         <div class="container">
+            <div class="row">
+
+                  <div class="mx-auto col-lg-5 col-md-5 col-10">
+                      <img src="images/janio.png" class="img-fluid" alt="Ben Resume HTML Template">
+                  </div>
+
+                   <div class="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
+                        <div class="hero-text">
+
+                            <h1 class="hero-title">👋 Bem vindos(a), ao meu portfolio</h1>
+
+                            <a href="mailto:janiosouz001@gmail.com" class="email-link">
+                              📧 janiosouz001@gmail.com
+                            </a>
+                            <a
+                            href="https://www.linkedin.com/in/janio-souza-dev/" class="email-link" target="_blank">
+                              Linkedin
+                            </a>
+                            <a
+                            href="https://github.com/Janio-Souza" class="email-link" target="_blank">
+                              GitHub
+                            </a>       
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-md-6 col-12">
+                    <h3 class="mb-4">Um breve resumo sobre mim</h3>
+
+                    <p>Iniciei minha vida academica em 2018, ao adentrar em meu primeiro curso superior, de Administração publica e privada.
+                      Mas anciava que aquilo não era para mim.
+                    </p>
+
+                    <p>Desde jovem sempre fui familiarizado com computadores, e minha curiosidade me fazia questionar;<br>
+                      - Como a maquina resolve este problema? <br>
+                      - Como funciona este programa? como ele se comunica com a maquina?<br>
+                      Desde então foi surgindo um desejo de estudar mais a fundo, de querer entender como tudo aquilo de forma maestral funcionava perfeitamente.
+                    </p>
+
+                    <ul class="mt-4 mb-5 mb-lg-0 profile-list list-unstyled">
+                        <li><strong>Nome :</strong> Janio Souza </li>
+
+                        <li><strong>Nascimento:</strong> Dez/1997</li>
+
+                        <!-- <li><strong>Website :</strong> company.co</li> -->
+
+                        <li><strong>Email :</strong> janiosouz001@gmail.com</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-5 mx-auto col-md-6 col-12">
+                    <img src="images/true-agency.jpg" class="about-image img-fluid" alt="Resume HTML CV">
+                </div>
+
+            </div>
+            <div>
+              <br>
+              <h3 class="mb-5 text-center">Jornada</h3>
+            </div>
+            <div class="row about-third">
+            	<div class="col-lg-4 col-md-4 col-12">
+                <h3>Formatura em Administração</h3>
+                <p>No periodo de 2018 há 2021, conclui o curso de bacharelado em Administração, pude aproveitar muito, estudei muitos conceitos sobre negocios o que me despertou como empreendedor, mas mesmo assim
+                  a informatica ainda me chava mais atenção.
+                </p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                <h3>Empreendimento Proprio</h3>
+                <p>Uma coisa boa que descobri no curso de administração foi que gosto de empreender, quando finalizei a faculdade
+                  iniciei meu proprio negocio, onde pude apreender muito sobre mim, clientes e negociações. Pude evoluir tanto como pessoas, como
+                  profissional com meus erros e acertos,</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                <h3>Trybe: Escola para programadores</h3>
+                <p>Após mais ou menos 1 ano longe dos livors, retorneu a ESCOLA, mas destas vez foi em uma coisa que eu sonhara desde a infancia.
+                  Aprender a programar, finalmente eu iria entender como tudo aquilo que eu via no meu PC era reenderizado na tela, e isto tudo em 12 meses!
+                </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- TESTIMONIAL -->
+     <section class="testimonials section-padding" id="testimonials">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-12">
+                        <h3 class="mb-5 text-center">Principais projetos</h3>
+
+                        <div class="owl-carousel owl-theme" id="testimonials-carousel">
+                            <div class="item">
+                                <div class="testimonials-thumb d-flex">
+                                    <div class="testimonials-image">
+                                        <img src="images/projects/car_shoping2.jpg">
+                                    </div>
+
+                                    <div class="testimonials-info">
+                                        <p>Este projeto consiste de um pagina com carrinho que reenderiza prdutos vindos de uma API diretamente do mercado livre.
+                                        </p>
+
+                                        <h6 class="mb-0">Shopping Cart</h6>
+                                        <span>Front-end</span>
+                                        <br>
+                            
+                                          <a href="./projects/project-shopping-cart/car_shoping2.jpg" style="color:darkorange" target="_blank">Vizualizar</a>
+                                          <a href="https://github.com/Janio-Souza/Shoping-card" target="_blank">| Repositorio</a> 
+                                      
+                            
+                                      </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="testimonials-thumb d-flex">
+                                    <div class="testimonials-image">
+                                        <img src="images/projects/trybewarts.png" class="img-fluid" alt="testimonials image">
+                                    </div>
+
+                                    <div class="testimonials-info">
+                                        <p>O projeto consiste em principalmente uma tela de formulario de inscrição.
+                                            Este projeto foi realizado com basicmanete html, CSS e JavaScript.
+                                        </p>
+
+                                        <h6 class="mb-0">Projeto Trybewarts</h6>
+                                        <span>Front-end</span>
+                                        <br>
+                                        <a href="./projects/project-trybewarts/trybewarts.png" style="color:darkorange" target="_blank">Vizualizar</a>
+                                        <a href="https://github.com/Janio-Souza/trybewarts" target="_blank">| Repositorio</a> 
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="testimonials-thumb d-flex">
+                                    <div class="testimonials-image">
+                                        <img src="images/projects/tfc2.png" class="img-fluid" alt="testimonials image">
+                                    </div>
+
+                                    <div class="testimonials-info">
+                                        <p>Aplicação desenvolvida para apresentar informações sobre partidas e classificações em campeonatos de futebol.</p>
+
+                                        <h6 class="mb-0">Back-end</h6>
+                                        <span>TFC - Trybe futebol club</span>
+                                        <a href="./projects/tfc/TFC.mp4" style="color:darkorange" target="_blank">Vizualizar</a>
+                                         <a href="https://github.com/Janio-Souza/TFC-trybe-futebol-club" target="_blank">| Repositorio</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- <div class="item">
+                                <div class="testimonials-thumb d-flex">
+                                    <div class="testimonials-image">
+                                        <img src="images/projects/testimonial-image04.jpg" class="img-fluid" alt="testimonials image">
+                                    </div>
+
+                                    <div class="testimonials-info">
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+
+                                        <h6 class="mb-0">Wilson</h6>
+                                        <span>Web Developer</span>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+
+     <!-- FAQ -->
+     <!-- <section class="faq section-padding">
+        
+        <div class="container">
+            
+            <div class="row">
+
+                <div class="col-lg-12 col-12">
+
+                    <h3 class="mb-5">Frequently Asked Questions</h3>
+
+                    <div class="accordion" id="accordionExample">
+                      <div class="card">
+                        <div class="card-header" id="headingOne">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Are those HTML templates absolutely free for any kind of usage?
+                            </button>
+                          </h2>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <p>Yes, they are 100% free and there is no hidden charge.</p>
+
+                            <p>They can be used for your commercial websites.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header" id="headingTwo">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Can I use them as a CMS theme or a part of website builder?
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <p>Yes, you can use them.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header" id="headingThree">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              I cannot find a suitable HTML template. Can I request new template?
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <p>Yes, please tell us what you need. We will try our best to fulfill it.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                              Can I redistribute your templates?
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <p>No, this is totally NOT allowed. Please do not redistribute our HTML templates.</p>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingFive">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                              How do I support Tooplate?
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <p>Please spread a word about Tooplate website to your colleagues and friends.</p>
+                          </div>
+                        </div>
+                    </div>
+
+                    <span class="faq-info-text">Please send us a message if you have anything to say. Send an email message to <strong>contact (at) tooplate (dot) com</strong></span>
+
+                </div>
+
+           	 </div>
+        	</div>
+        </div>
+    </section> -->
+     <!-- FIM DO FAQ -->
+
+
+     <!-- <section class="contact section-padding pt-0" id="contact">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6 col-md-6 col-12">
+            <form action="#" method="get" class="contact-form webform"  role="form">
+                
+                <div class="form-group d-flex flex-column-reverse">
+                    <input type="text" class="form-control" name="cf-name" id="cf-name" placeholder="Your Name">
+
+                    <label for="cf-name" class="webform-label">Full Name</label>
+                </div>
+
+                <div class="form-group d-flex flex-column-reverse">
+                    <input type="email" class="form-control" name="cf-email" id="cf-email" placeholder="Your Email">
+
+                    <label for="cf-email" class="webform-label">Your Email</label>
+                </div>
+
+                <div class="form-group d-flex flex-column-reverse">
+                    <textarea class="form-control" rows="5" name="cf-message" id="cf-message" placeholder="Your Message"></textarea>
+
+                    <label for="cf-message" class="webform-label">Message</label>
+                </div>
+
+                <button type="submit" class="form-control" id="submit-button" name="submit">Send</button>
+            </form>
+          </div> -->
+
+            <div class="col-lg-4 col-12">
+                <h3 class="my-4 pt-4 pt-lg-0">Janio Souza</h3>
+
+                <p class="mb-1">(87) 9 9199-8487</p>
+
+                <p>
+                    <a href="#">
+                        janiosouz001@gmail.com
+                    <i class="fas fa-arrow-right custom-icon"></i>
+                    </a>
+                </p>
+
+                <ul class="social-links mt-2">
+                    <!-- <li><a href="https://fb.com/tooplate" rel="noopener" class="fab fa-facebook"></a></li> -->
+                    <!-- <li><a href="#" rel="noopener" class="fab fa-twitter"></a></li> -->
+                    <!-- <li><a href="#" rel="noopener" class="fab fa-instagram"></a></li> -->
+                    <!-- <li><a href="https://www.linkedin.com/in/janio-souza-dev/" rel="noopener" class="fab fa-linkedin"></a></li> -->
+                    <!-- <li><a href="#" rel="noopener" class="fab fa-youtube"></a></li> -->
+                </ul>
+                
+              <!-- <p class="copyright-text mt-5 pt-3">Copyright &copy; 2020 Ben Resume Page</p>
+                
+                <p>Design: <a href="https://www.tooplate.com" title="free HTML templates" target="_blank">Tooplate</a></p>
+            </div> -->
+
+        </div>
+      </div>
+    </section>
+     <!-- SCRIPTS -->
+     <script src="js/jquery.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/smoothscroll.js"></script>
+     <script src="js/owl.carousel.min.js"></script>
+     <script src="js/custom.js"></script>
 
 </body>
 </html>
