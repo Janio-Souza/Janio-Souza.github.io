@@ -53,3 +53,12 @@
     });   
      
   });
+
+  function calculaIdade() {
+    var dataNascimento = 1997;
+    let campoIdade = document.getElementById("idade");
+    var idade = new Date().getFullYear() - dataNascimento;
+    campoIdade.innerHTML = `<strong>Idade:</strong> ${idade} anos`;
+  };
+
+  calculaIdade();
